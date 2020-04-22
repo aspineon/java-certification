@@ -7,6 +7,7 @@ import java.util.List;
 public class MainApp {
 	public static void main(String[] args) {
 		
+		// LIST
 		List<String> list = new ArrayList<>(); // [] empty list
 		System.out.println(list);
 		
@@ -20,9 +21,11 @@ public class MainApp {
 		list.add("Olga"); 
 		System.out.println(list.get(2)); // Olga
 		
-		list.remove(2); // OK WORK	
+		list.remove(2); // OK	
 		System.out.println(list); // [Katerina, Lena]
 		
+		
+		// ARRAY
 		String[] array = new String[list.size()]; // empty array 
 		System.out.println(array.length); // 2
 		System.out.println(array); // [Ljava.lang.String;@15db9742
@@ -31,6 +34,7 @@ public class MainApp {
 
 		System.out.println("-----------------");
 		
+		// ARRAY AND LIST
 		array[0] = list.get(0); 
 		System.out.println(array[0]); // Katerina
 
@@ -42,10 +46,11 @@ public class MainApp {
 		
 		System.out.println("\n-----------------");	
 		
-		String[] array2 = { "cat", "mouse" }; 
+		String[] array2 = { "cat", "horse" }; 
 		System.out.println(array2[0]); // cat
 		System.out.println(array2[1]); // horse
 
+		// ARRAY AS LIST
 		List<String> list2 = Arrays.asList(array2); // returns fixed size list
 		System.out.println(list2); // [cat, horse]
 
@@ -58,12 +63,13 @@ public class MainApp {
 
 		
 		//  !!!! array2 and list2 !!!! 
-		// Changes are refected in both, since they are backed by the same data
+		// Changes are reflected in both, since they are backed by the same data
 		System.out.println(list2); // [Svetlana, Tanya]
-
+	
 		System.out.println("\n-----------------");	
 
-		String[] array3 = (String[]) list2.toArray(); 
+		//  LIST TO ARRAY
+		String[] array3 =  (String[]) list2.toArray(); 
 		System.out.println(array3[0]); // Svetlana
 		System.out.println(array3[1]); // Tanya
 
