@@ -14,6 +14,12 @@ public class Animal {
  * line comment
  */
  
+ /**
+  * Javadoc multiple-line comment
+  * @author Mimar Aslan
+  */
+
+ 
  /*
  * // OKEY
  */
@@ -31,5 +37,8 @@ public class Animal {
 
 
  /**///* OKEY */*/ 
+ 
+
+ /* */ */  NO
  
  }
