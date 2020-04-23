@@ -15,7 +15,7 @@ import java.util.Date;
 //import java.sql.Date; // ERROR
 
 
-public class Conflicts {
+public class Conflicts1 {
 	Date date;
 	// some more code
 }
