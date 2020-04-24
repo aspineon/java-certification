@@ -17,8 +17,8 @@ public class MainApp2 {
 	    System.out.println(b6); 
 	    
 		boolean b7 = false, b8 = true;  // OK
-		System.out.println(b7); 
-	    System.out.println(b8); 
+		System.out.println(b7); // OK
+	    System.out.println(b8); // OK
 	    
 	  //Local variables must be initialized before use. 
 		String s1, s2; 
@@ -26,8 +26,8 @@ public class MainApp2 {
 	    System.out.println(s2); // Initialize variable
 	    
 		String s3 = "3", s4 = null; // OK
-	    System.out.println(s3);
-	    System.out.println(s4);
+	    System.out.println(s3); // OK
+	    System.out.println(s4); // OK
 	    
 		String s5, s6 = "6"; 
 	    System.out.println(s5);  // Initialize variable

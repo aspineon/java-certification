@@ -21,10 +21,13 @@ public class MainApp {
 		
 		3DPointClass // identifiers cannot begin with a number 
 
+		
+		@adanamerkez // @ is not a letter, digit, $ or _ 
 		adana@merkez // @ is not a letter, digit, $ or _ 
 		
 		*$coffee // * is not a letter, digit, $ or _
-		
+		*$coffee // * is not a letter, digit, $ or _
+
 		public // public is a reserved word
 		
 		

@@ -1,16 +1,18 @@
 package _0019_instance_and_class_variables;
 
 public class MainApp {
-//Instance and class variables do not require you to initialize them.
-	static boolean myVal1;
-	static byte myVal2;
-	static short myVal3;
-	static int myVal4;
-	static long myVal5;
-	static float myVal6;
-	static double myVal7;
-	static char myVal8;
 
+	//Instance and class variables do not require you to initialize them.
+	static boolean myVal1; // false
+	static byte myVal2;    // 0
+	static short myVal3;   // 0
+	static int myVal4;     // 0
+	static long myVal5;    // 0
+	static float myVal6;   // 0.0
+	static double myVal7;  // 0.0
+	static char myVal8;    // 
+
+	// Default values are null
 	static Boolean myVal9;
 	static Byte myVal10;
 	static Short myVal11;

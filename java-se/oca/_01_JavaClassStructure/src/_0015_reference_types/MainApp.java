@@ -4,7 +4,7 @@ public class MainApp {
 	public static void main(String[] args) {
 		
 		//int value = null; // DOES NOT COMPILE 
-		String s = null; // OK
+		String s = null;    // OK
 		System.out.println(s);
 		
 		String reference = "hello";

@@ -1,7 +1,7 @@
 package _0018_local_variables;
 
 public class MainApp {
-
+	
 	public int notValid() {
 		int y = 10;
 		int x; 	//Local variables must be initialized before use. 
@@ -18,7 +18,8 @@ public class MainApp {
 	}
 
 	public void findAnswer(boolean check) { 
-	  //Local variables must be initialized before use. 
+	  
+		//Local variables must be initialized before use. 
 		int answer;
 		int onlyOneBranch;
 		
