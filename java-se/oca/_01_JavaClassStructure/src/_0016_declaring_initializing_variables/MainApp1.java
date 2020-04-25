@@ -17,6 +17,5 @@ public class MainApp1 {
 
 		System.out.println(zooName2);
 		System.out.println(numberAnimals2);
-
 	}
 }

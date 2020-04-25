@@ -1,6 +1,6 @@
 package _0019_instance_and_class_variables;
 
-public class MainApp {
+public class MainApp1 {
 
 	//Instance and class variables do not require you to initialize them.
 	static boolean myVal1; // false
@@ -12,7 +12,7 @@ public class MainApp {
 	static double myVal7;  // 0.0
 	static char myVal8;    // 
 
-	// Default values are null
+	// All object references (everything else) null
 	static Boolean myVal9;
 	static Byte myVal10;
 	static Short myVal11;

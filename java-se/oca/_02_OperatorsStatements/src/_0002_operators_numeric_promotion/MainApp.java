@@ -3,6 +3,7 @@ package _0002_operators_numeric_promotion;
 public class MainApp {
 
 	public static void main(String[] args) {
+		
 		int x = 1;
 		long y = 33;
 		System.out.println(x * y); // long

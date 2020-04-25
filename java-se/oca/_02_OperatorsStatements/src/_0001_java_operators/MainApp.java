@@ -3,6 +3,7 @@ package _0001_java_operators;
 public class MainApp {
 
 	public static void main(String[] args) {
+		
 		int y = 4;
 		System.out.println(y); // 4
 
@@ -13,10 +14,11 @@ public class MainApp {
         //	   x =   9;		
 		System.out.println(x); // 9.0
 		
+		
 		 x = 2 * 5 + 3 * 4 - 8;
 	   //x =   10  +   12  - 8;
 	   //x =       22      - 8;
-	   //x =            14; 
+	   //x =           14; 
 		 System.out.println(x); // 14.0
 
 		 
