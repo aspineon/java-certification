@@ -20,5 +20,11 @@ public class MainApp {
 		float y4 = 13;
 		double z4 = 30;
 		System.out.println(x4 * y4 / z4); // double
+		
+		
+		int pelican = !5;         // DOES NOT COMPILE
+		boolean penguin = -true;  // DOES NOT COMPILE
+		boolean peacock = !0;     // DOES NOT COMPILE
+
 	}
 }

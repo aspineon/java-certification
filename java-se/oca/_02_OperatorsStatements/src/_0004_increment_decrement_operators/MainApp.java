@@ -3,7 +3,24 @@ package _0004_increment_decrement_operators;
 public class MainApp {
 
 	public static void main(String[] args) {
-		
+			
+		int parkAttendance = 0;
+		System.out.println(parkAttendance);    // 0
+		System.out.println(++parkAttendance);  // 1
+		System.out.println(parkAttendance);    // 1
+		System.out.println(parkAttendance--);  // 1
+		System.out.println(parkAttendance);    // 0
+		System.out.println("---------------------------------");
+
+		int lion = 3;
+		int tiger = ++lion * 5 / lion--;
+		//  tiger =     4  * 5 / 4--;
+		//  tiger =        20  / 4--;
+		//  tiger =           5 ; // lion 3
+		System.out.println("lion is " + lion);
+		System.out.println("tiger is " + tiger);
+		System.out.println("---------------------------------");
+
 		int a = 0, b = 0; 
 		System.out.println("a\t: " + a + "\t b\t: " + b); // 0 
 		System.out.println("++a\t: " + ++a + "\t b++\t: " + b++); // 0
