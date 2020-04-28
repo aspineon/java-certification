@@ -13,8 +13,15 @@ public class MainApp {
 			x = 3 * y;
 		}
 		*/
-		final int x = (y > 5) ? (2 * y) : (3 * y);
 		
-		System.out.println(x);
+		final int x = (y > 5) ? (2 * y) : (3 * y);	
+		System.out.println(x); // 20
+		System.out.println("---------------------------------------------");
+		
+		int stripes = 7;
+		System.out.print((stripes > 5) ? 21 : "Zebra"); // 21
+		System.out.println("---------------------------------------------");
+
+		int animal = (stripes < 9) ? 3 : "Horse";  // DOES NOT COMPILE
 	}
 }

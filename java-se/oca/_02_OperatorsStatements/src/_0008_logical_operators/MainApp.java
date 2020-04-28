@@ -30,5 +30,10 @@ public class MainApp {
 		
 		boolean awake = eyesClosed ^ breathingSlowly;
 		System.out.println(awake);    // false
+		System.out.println("------------------------------");
+		
+		int rabbit = 6;
+		boolean bunny = (rabbit >= 6) || (++rabbit <= 7);
+		System.out.println(bunny);	
 	}
 }

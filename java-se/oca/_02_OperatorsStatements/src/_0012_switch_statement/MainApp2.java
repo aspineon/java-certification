@@ -6,8 +6,8 @@ public class MainApp2 {
 
 		int dayOfWeek = 5; 
 		switch(dayOfWeek) {
-			case 0: System.out.println("Sunday"); //break;
-			default: System.out.println("Weekday"); //break;
+			case 0: System.out.println("Sunday"); //break;   // Weekday
+			default: System.out.println("Weekday"); //break; // Saturday
 			case 6: System.out.println("Saturday"); break;
 		}
 
