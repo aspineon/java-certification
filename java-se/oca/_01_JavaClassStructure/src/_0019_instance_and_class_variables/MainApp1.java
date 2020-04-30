@@ -23,22 +23,22 @@ public class MainApp1 {
 	static Character myVal16;
 
 	public static void main(String[] args) {
-		System.out.println("boolean " + myVal1);
-		System.out.println("byte " + myVal2);
-		System.out.println("short " + myVal3);
-		System.out.println("int " + myVal4);
-		System.out.println("long " + myVal5);
-		System.out.println("float " + myVal6);
-		System.out.println("double " + myVal7);
-		System.out.println("char " + myVal8);
+		System.out.println("boolean " + myVal1); // false
+		System.out.println("byte " + myVal2); // 0
+		System.out.println("short " + myVal3); // 0
+		System.out.println("int " + myVal4); // 0
+		System.out.println("long " + myVal5); // 0
+		System.out.println("float " + myVal6); // 0.0
+		System.out.println("double " + myVal7); // 0.0
+		System.out.println("char " + myVal8); //
 
-		System.out.println("Boolean " + myVal9);
-		System.out.println("Byte " + myVal10);
-		System.out.println("Short " + myVal11);
-		System.out.println("Integer " + myVal12);
-		System.out.println("Long " + myVal13);
-		System.out.println("Float " + myVal14);
-		System.out.println("Double " + myVal15);
-		System.out.println("Character " + myVal16);
+		System.out.println("Boolean " + myVal9); // null
+		System.out.println("Byte " + myVal10); // null
+		System.out.println("Short " + myVal11); // null
+		System.out.println("Integer " + myVal12); // null
+		System.out.println("Long " + myVal13); // null
+		System.out.println("Float " + myVal14); // null
+		System.out.println("Double " + myVal15); // null
+		System.out.println("Character " + myVal16); // null
 	}
 }

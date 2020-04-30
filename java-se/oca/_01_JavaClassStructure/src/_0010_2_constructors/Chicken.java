@@ -1,4 +1,4 @@
-package _0010_constructors;
+package _0010_2_constructors;
 
 public class Chicken {
 	int numEggs = 0;// initialize on line String name;

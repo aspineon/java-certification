@@ -4,18 +4,18 @@ public class MainApp3 {
 
 	public static void main(String[] args) {
 		MainApp3 obj = new MainApp3();
-		obj.getSortOrder("Murat", "Aslan");
+		obj.getSortOrder("Mimar", "Aslan");
 	}
 
 	private int getSortOrder(String firstName, final String lastName) {
 		
 		int id = 0;
 		final String suffix = "MR";
-		String middleName = "Murat";
+		String middleName = "Mimar";
 
 		switch (firstName) {  
 			case "Test": 
-				return 52;
+				return 44;
 			case middleName: //is not a final variable //DOES NOT COMPILE 
 				id = 5;
 				break;

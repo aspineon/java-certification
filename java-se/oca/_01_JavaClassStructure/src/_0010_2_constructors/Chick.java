@@ -1,4 +1,4 @@
-package _0010_constructors;
+package _0010_2_constructors;
 
 public class Chick {
 	public Chick() {
