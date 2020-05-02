@@ -17,6 +17,7 @@ public class MainApp2 {
 		System.out.println("\n-------------");
 
 		java.util.List<String> values = new java.util.ArrayList<String>();
+		//  	  List<String> values = new 		  ArrayList<String>();
 		values.add("A");
 		values.add("B");
 		values.add("C");
@@ -26,7 +27,7 @@ public class MainApp2 {
 
 		System.out.println("\n-------------");
 
-		String names2 = "Lisa";
+		String names2 = "Katerina";
 		for (String name : names2) { // DOES NOT COMPILE
 			System.out.print(name + " ");
 		}

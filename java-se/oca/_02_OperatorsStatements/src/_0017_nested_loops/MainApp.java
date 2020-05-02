@@ -4,7 +4,7 @@ public class MainApp {
 
 	public static void main(String[] args) {
 
-		int[][] myComplexArray = { { 5, 2, 1, 3 }, { 3, 9, 8, 9 }, { 5, 7, 12, 7 } };
+		int[][] myComplexArray = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 } };
 		
 		for (int[] mySimpleArray : myComplexArray) {
 			for (int i = 0; i < mySimpleArray.length; i++) {
@@ -13,7 +13,7 @@ public class MainApp {
 			System.out.println();
 		}
 
-		System.out.println("\n===================");
+		System.out.println("\n===========================================================");
 
 		int x = 20;
 		while (x > 0) {
@@ -23,7 +23,7 @@ public class MainApp {
 
 			} while (x > 5);
 			x--;
-			System.out.println("\n-------------------");
+			System.out.println("\n-----------------------------------");
 
 			System.out.print(x + "\t");
 		}
