@@ -12,12 +12,15 @@ public class Mutable {
 	public String getS() {
 		return s;
 	}
+
 }
 
 //immutable classes in Java are final, and subclasses can’t add mutable behavior.
 final class Immutable {
-	private String s = "name";
+	
+	private String s = "Katerina";
 
+	// Immutable has only a getter.
 	public String getS() {
 		return s;
 	}
