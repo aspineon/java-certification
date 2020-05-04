@@ -29,6 +29,6 @@ public class MainApp2 {
 		System.out.println(text.trim().length());  		   // 3
 		System.out.println(text.strip().length()); 		   // 3
 		System.out.println(text.stripLeading().length());  // 5
-		System.out.println(text.stripTrailing().length()); // 4
+		System.out.println(text.stripTrailing().length()); // 4		
 	}
 }
