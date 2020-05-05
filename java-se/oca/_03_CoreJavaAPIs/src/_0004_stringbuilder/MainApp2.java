@@ -8,17 +8,20 @@ public class MainApp2 {
 		String trimmed = start.trim(); // "AniMaL"
 		String lowercase = trimmed.toLowerCase(); // "animal"
 		String result = lowercase.replace('a', 'A'); // "AnimAl"
-		System.out.println(result);
+		System.out.println(result); // AnimAl
+		System.out.println("-------------------------------------------");
 
 		String result2 = "AniMaL ".trim().toLowerCase().replace('a', 'A'); 
-		System.out.println(result2);
+		System.out.println(result2); // AnimAl
+		System.out.println("-------------------------------------------");
 
 
 		String a = "abc";
 		String b = a.toUpperCase();
 		b = b.replace("B", "2").replace('C', '3'); 
-		System.out.println("a=" + a);
-		System.out.println("b=" + b);
-		
+		System.out.println("a=" + a); // a=abc
+		System.out.println("b=" + b); // b=A23
+		System.out.println("-------------------------------------------");
+
 	}
 }
